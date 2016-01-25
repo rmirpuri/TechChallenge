@@ -46,8 +46,7 @@ public class Challenge1 {
    @Test
    public void testUpdateStatus() {
 	   /*Using the docs on http://twitter4j.org/javadoc/ 
-	    *Update the status with Test 1  */
-  
+	    *Update the status with "Hi my name is <your name> and Test 1  */  
    }
    
    @Test
@@ -63,6 +62,14 @@ public class Challenge1 {
 	    * Get the total count of tweets for the user.
 	    */
    }
+   
+   @Test
+   public void testPostAdditionOfNumbers(){
+	   /*Using the docs on http://twitter4j.org/javadoc/
+	    * Add two numbers 122.0  + 55 and post the result to twitter
+	    * The post should look like this: "Hi! my name is <yourname> and the addition of 122.0 + 55 is: <result>"
+	    */
+   }  
    
    
 }
