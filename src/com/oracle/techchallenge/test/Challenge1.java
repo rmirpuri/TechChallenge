@@ -56,4 +56,13 @@ public class Challenge1 {
 	    * print out all the tweets on timeline
 	    */
    }
+   
+   @Test
+   public void testGetTotalTweets(){
+	   /*Using the docs on http://twitter4j.org/javadoc/
+	    * Get the total count of tweets for the user.
+	    */
+   }
+   
+   
 }
